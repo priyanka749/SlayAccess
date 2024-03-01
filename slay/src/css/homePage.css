@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    background: rgba(0, 0, 0, 0.72);
+    color: white;
+}
+body, html {
+    overflow-x: hidden;
+}
+.home-page{
+    background-image: url("../images/homey.jpg");
+    width: 100vw;
+    height: 100vh; /* Set height to full viewport height */
+    background-size: cover; /* Cover the entire container */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.hp-first-div{
+    width: 100vw;
+    /*background-color: rgba(0,0,0, 0.52);*/
+    overflow-x: hidden;
+}
+.hp-second-div{
+    width: 100vw;
+    /*background: #faf7f2;*/
+    padding-bottom: 5vh;
+}
+
+.hp-main-container{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #312e2e;*/
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+    height:40vh;
+    z-index: 99;
+}
+
+.feast-slogan{
+    font-family: Alex Brush;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin-bottom: -0.9rem;
+}
+/* .feast-slogan h1{
+    font-weight: 800;
+    color: rgb(195, 138, 138);
+} */
+.hp-search-wrapper{
+    border: 1px solid #a48383;
+    border-radius: 30px;
+    background-color: rgb(243, 208, 208);
+    height: 5vh;
+    width: 55vw;
+    display: flex;
+    border-radius: 5%;
+    align-items: center;
+    overflow-x: hidden;
+}
+.hp-search-wrapper span{
+    display: inline-block;
+    padding: 0.2rem 15px 0 0.3rem;
+    font-size: 2vw;
+    background-color: #efe6e6;
+    margin-left: -1.72rem;
+}  .hp-search-wrapper span:hover{
+       cursor: pointer;
+   }
+.hp-search-wrapper input{
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-family: "Gilroy Regular";
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+/* .home-search-div{
+    padding-left: 6vw;
+    display: flex;
+    justify-content: center;
+    background-color: #141313;
+} */
+/* .recommended-text{
+    display: flex;
+    padding-left: 2vw;
+    align-items: center;
+    font-family: "Alex Brush";
+    color: #eae5e5;
+    text-decoration: underline;
+    /*background-color: #f3ad16;*/
+
+/* .recommendation-div h2{
+    /*background-color: #f3ad16;*/
+    /* font-size: 3rem; */
+
+/* .view-more-btn{
+    display: flex;
+    background-color: #f1d3d3;
+    text-decoration-color: black;
+    justify-content: center;
+    margin-top: 7vh;
+} */ 

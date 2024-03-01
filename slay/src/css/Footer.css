@@ -1,0 +1,12 @@
+.dark {
+    background-color: #1a202c;
+    color: white;
+  }
+  
+  .dark a {
+    color: white;
+  }
+  
+  .dark a:hover {
+    text-decoration: underline;
+  }
